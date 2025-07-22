@@ -1,0 +1,52 @@
+/* สีพื้นหลังและฟอนต์ */
+body {
+    background-color: #fff0f5; /* โทนชมพูอ่อนหวาน */
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+/* กล่องแนะนำตัว */
+.intro {
+    background-color: #ffb6c1; /* ชมพูพาสเทล */
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* ข้อความทั่วไป */
+p {
+    text-align: center;
+    color: #940c0c;
+    font-weight: bold;
+}
+
+/* โซเชียลลิงก์ */
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #ffccd5;
+    padding: 15px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto 30px;
+}
+
+.socials a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.socials a img:hover {
+    transform: scale(1.2);
+}
